@@ -4,11 +4,18 @@ pipeline
     agent any
     stages
     {
-        stage('Job-1-Master')
+        stage('Job-1-Branch-A')
         {
             steps
             {
              echo "hello Job-1"    
+            }
+        }
+         stage('Job-1-Branch-A')
+        {
+            steps
+            {
+             echo "hello Job-2"    
             }
         }
     }    
