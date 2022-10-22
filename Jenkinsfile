@@ -20,5 +20,12 @@ pipeline
              echo "hello Job-2"    
             }
         }
-    }    
+     stage('Job-3-Master')
+        {
+            steps
+            {
+             echo "hello Job-3"    
+            }
+        } 
+    }
 }
