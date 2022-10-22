@@ -1,4 +1,5 @@
-/* This Pipeline code are create the some multi branch pipeline  */
+/* This Pipeline code are create the some multi branch pipeline  
+ this file content the Branch-B data*/
 pipeline
 {
     agent any
